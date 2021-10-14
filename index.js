@@ -21,7 +21,7 @@ app.use('/SLEast', require('./routes/SLEast.js'))
 app.use('/STWest', require('./routes/STWest.js'))
 app.use('/STEast', require('./routes/STEast.js'))
 
-//routes to create items tbdhfr
+//routes to create items
 app.use('/SNWCreate', require('./routes/api/SNWapi.js'))
 app.use('/SNECreate', require('./routes/api/SNEapi.js'))
 app.use('/SLWCreate', require('./routes/api/SLWapi.js'))
